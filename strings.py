@@ -30,6 +30,11 @@ print(sentence[:7])
 sentenceLength = len(sentence)
 print('Count string length:', sentenceLength)
 
+# Convert a string to integer
+string = '123'
+string_to_int = int(string)
+print('String to integer:', string_to_int)
+
 # Reverse string
 print('Reverse string:', sentence[::-1])
 

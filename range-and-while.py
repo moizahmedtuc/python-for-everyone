@@ -16,3 +16,20 @@ age = 20
 while age < 25:
     print(age)
     age += 1
+
+'''
+Calculate factorial
+e.g. 5 x 4 x 3 x 2 x 1
+'''
+
+
+def calculate_factorial(n):
+    if n < 0:
+        return 'Factorial is not defined for negative numbers'
+    factorial_num = 1
+    for n in range(1, n + 1):
+        factorial_num *= n
+    return factorial_num
+
+
+print('Factorial:', calculate_factorial(5))
