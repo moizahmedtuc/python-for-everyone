@@ -71,6 +71,10 @@ print('2. Reverse list:', list_x)
 tuple_x = (99, 100)
 list_x.extend(tuple_x)
 print('Extend list from tuple', list_x)
+# Get the minimum value from the list
+my_list = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5]
+minimum_value = min(my_list)
+print("Minimum value:", minimum_value)
 
 # Check if an element is in a list - use the in keyword to check if an element is present in a list
 item = 8
